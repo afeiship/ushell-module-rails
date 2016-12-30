@@ -2,6 +2,11 @@
 ## path:
 ROOT_PATH=$(dirname $BASH_SOURCE);
 
-alias rails-unistall='gem uninstall rails && gem uninstall railties';
+alias rl-s='rails s';
+alias rl-g='rails generate';
+alias rl-gc='rails generate controller';
+alias rl-gm='rails generate model';
+alias rk-r='rake routes';
+alias rk-dbm='rake db:migrate';
 
 unset ROOT_PATH;
